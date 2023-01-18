@@ -1,0 +1,61 @@
+.formations{
+
+
+    h3{
+        font-size: $h3-fsz;
+    }
+
+    .grid-row{
+        padding: 4px 0 0 4px;
+    }
+
+    .grid-item, .grid-item p{
+        margin-bottom: $space-2;
+    }
+
+    .grid-date{
+        text-decoration: underline;
+    }
+
+    .grid-title{
+        margin-bottom: 0;
+    }
+
+    .grid-location{
+        color : $date;
+    }
+
+}
+
+.experiences{
+    h3{
+        font-size: $h3-fsz;
+    }
+
+    .grid-row{
+        padding: 4px 0 0 4px;
+    }
+
+    .grid-item, .grid-item p{
+        margin-bottom: $space-2;
+    }
+
+    .grid-date{
+        text-decoration: underline;
+    }
+
+    .grid-title{
+        margin-bottom: 0;
+    }
+
+    .grid-location{
+        color : $date;
+    }
+
+    .grid-mission{
+        margin: 10px 0;
+        list-style: inside ;
+    }
+
+
+}

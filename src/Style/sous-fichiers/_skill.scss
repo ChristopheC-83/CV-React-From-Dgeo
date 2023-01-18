@@ -1,0 +1,26 @@
+.skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .circle{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        margin-right: 8px;
+        background-color: $circle;
+
+    }
+    .circle-plain{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        margin-right: 8px;
+        background-color: $circle-plain;
+
+    }
+
+}
+

@@ -3,6 +3,10 @@
 @import "./libs/mixins";
 @import "./sous-fichiers/app";
 @import "./sous-fichiers/user";
+@import "./sous-fichiers/skills";
+@import "./sous-fichiers/skill";
+@import "./sous-fichiers/interests";
+@import "./sous-fichiers/FormExp";
 
 .App{
     width: 100%;
@@ -16,4 +20,12 @@ h1, h2, h3{
     font-weight: 400;
     color: $black-1;
 
+}
+
+h2{
+
+font-size: $h2-fsz;
+font-weight: bold;
+margin: 24px 0;
+text-transform: uppercase;
 }
