@@ -122,7 +122,7 @@ a {
   height: 20px;
   border-radius: 20px;
   margin-right: 8px;
-  background-color: #aaa;
+  background-color: #777;
 }
 .skill .circle-plain {
   display: inline-block;
@@ -130,7 +130,7 @@ a {
   height: 20px;
   border-radius: 20px;
   margin-right: 8px;
-  background-color: #555;
+  background-color: #ccc;
 }
 
 .interests {
@@ -197,7 +197,9 @@ a {
   color: #111;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin-bottom: 0.4rem;
   font-weight: 400;
   color: #111;
@@ -208,4 +210,49 @@ h2 {
   font-weight: bold;
   margin: 24px 0;
   text-transform: uppercase;
+}
+
+.dark body {
+  background-color: #111;
+  color: #f4f4f4;
+}
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p,
+.dark li,
+.dark a,
+.dark p.info svg {
+  color: #f4f4f4;
+}
+.dark .sidebar {
+  background: #111;
+}
+.dark .main {
+  background-color: #333;
+}
+.dark p.grid-location {
+  color: #e6ef71;
+}
+.dark .pdf {
+  color: #f4f4f4;
+}
+
+#darkMode {
+  background: transparent;
+  border: none;
+}
+
+.button-action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pdf {
+  background-color: transparent;
+  border: none;
+  color: #111;
+  font-weight: bold;
 }/*# sourceMappingURL=index.css.map */

@@ -7,25 +7,77 @@
 @import "./sous-fichiers/skill";
 @import "./sous-fichiers/interests";
 @import "./sous-fichiers/FormExp";
+@import "./sous-fichiers/darkMode";
 
-.App{
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: $white-1;
+  color: $black-1;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: $space-1;
+  font-weight: 400;
+  color: $black-1;
+}
+
+h2 {
+  font-size: $h2-fsz;
+  font-weight: bold;
+  margin: 24px 0;
+  text-transform: uppercase;
+}
+
+.dark {
+  body {
+    background-color: $dark-white-1;
+    color: $dark-black-1;
+  }
+
+  h1,
+  h2,
+  h3,
+  p,
+  li,
+  a,
+  p.info svg {
+    color: $dark-black-1;
+  }
+
+  .sidebar {
+    background: $dark-white-1;
+  }
+  .main {
+    background-color: $dark-white-2;
+  }
+
+  p.grid-location{
+    color : $dark-date
+}
+    .pdf{
+        color : $dark-black-1
+    }
+
+}
+
+#darkMode{
+    background: transparent;
+    border:none
+}
+
+.button-action{
     width: 100%;
-    height: 100vh;
-    background-color: $white-1;
-    color : $black-1
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-h1, h2, h3{
-    margin-bottom: $space-1;
-    font-weight: 400;
-    color: $black-1;
-
-}
-
-h2{
-
-font-size: $h2-fsz;
-font-weight: bold;
-margin: 24px 0;
-text-transform: uppercase;
+.pdf{
+    background-color: transparent;
+    border:none;
+    color:$dark-white-1;
+    font-weight: bold;
 }

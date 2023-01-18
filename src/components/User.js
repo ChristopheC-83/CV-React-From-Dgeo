@@ -8,16 +8,17 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 export default function User() {
   return (
     <div className="user">
-      <img src="./images/photoCV.png" alt="moi-même" className="avatar"/>
+      <img src="./images/photoCV.png" alt="moi-même" className="avatar" />
       <h1 className="name">Christophe C.</h1>
       <p className="profession">Dev en devenir</p>
       <div className="infos">
         <p className="info">
-          <HomeIcon /> 4 rue de l'île verte 30420 Calvisson
+          <HomeIcon /> 4 rue de l'île verte <br />
+          30420 Calvisson
         </p>
         <p className="info">
           <PhoneIcon />
-          <a href="tel:+33662535164">06.62.53.51.64</a>
+          <a href="tel:+33699812296">06.99.81.22.96</a>
         </p>
         <p className="info">
           <MailIcon />
@@ -27,11 +28,13 @@ export default function User() {
         </p>
         <p className="info">
           <EventIcon />
-          Date de naissance : 10 novembre 1978
+          Date de naissance : <br />
+          10 novembre 1978
         </p>
         <p className="info">
           <LocationOnIcon />
-          Lieu de naissance : Toulon (Var)
+          Lieu de naissance : <br />
+          Toulon (Var)
         </p>
       </div>
     </div>
